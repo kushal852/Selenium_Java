@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-telecom_department" class="navigator-link">
+              <span class="suite-name border-failed">telecom_department</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-telecom_department" class="navigator-link ">
+                    <span>C:\Users\91999\eclipse-workspace\testNG_Tutorial\testng_includ_exclude.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-telecom_department" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-telecom_department" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-telecom_department" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-telecom_department" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-telecom_department" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-telecom_department" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-telecom_department" class="hide-methods failed suite-telecom_department"> (hide)</a> <!-- hide-methods failed suite-telecom_department -->
+                      <a href="#" panel-name="suite-telecom_department" class="show-methods failed suite-telecom_department"> (show)</a> <!-- show-methods failed suite-telecom_department -->
+                    </span>
+                    <div class="method-list-content failed suite-telecom_department">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_Basic" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-telecom_department -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-telecom_department" class="hide-methods passed suite-telecom_department"> (hide)</a> <!-- hide-methods passed suite-telecom_department -->
+                      <a href="#" panel-name="suite-telecom_department" class="show-methods passed suite-telecom_department"> (show)</a> <!-- show-methods passed suite-telecom_department -->
+                    </span>
+                    <div class="method-list-content passed suite-telecom_department">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_3" class="method navigator-link" hash-for-method="Balancecheck">Balancecheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_regex" class="method navigator-link" hash-for-method="Order_Replacment_Sim">Order_Replacment_Sim</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_regex" class="method navigator-link" hash-for-method="Reactivate_Sim">Reactivate_Sim</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_2" class="method navigator-link" hash-for-method="address_change(google.com, yahoo.com)">address_change(google.com, yahoo.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_2" class="method navigator-link" hash-for-method="after_suite">after_suite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_3" class="method navigator-link" hash-for-method="auto_topup">auto_topup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_2" class="method navigator-link" hash-for-method="name_change">name_change</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_2" class="method navigator-link" hash-for-method="personal_details_DOB_change">personal_details_DOB_change</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_2" class="method navigator-link" hash-for-method="personal_details_email_change(yahoo.com)">personal_details_email_change(yahoo.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_2" class="method navigator-link" hash-for-method="personal_details_number_change(india, 9994356366)">personal_details_number_change(india, 9994356366)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_2" class="method navigator-link" hash-for-method="personal_details_number_change(USA, 8328115845)">personal_details_number_change(USA, 8328115845)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_2" class="method navigator-link" hash-for-method="personal_details_number_change(europe, 9095049904)">personal_details_number_change(europe, 9095049904)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_4" class="method navigator-link" hash-for-method="reucurring_bundle">reucurring_bundle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_4" class="method navigator-link" hash-for-method="reucurring_topup">reucurring_topup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_regex" class="method navigator-link" hash-for-method="suspend_Sim">suspend_Sim</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_regex" class="method navigator-link" hash-for-method="unuspend_sim">unuspend_sim</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-telecom_department" title="testNG_Tutorial.testNG_regex" class="method navigator-link" hash-for-method="unuspend_sim_success">unuspend_sim_success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-telecom_department -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-telecom_department" class="panel telecom_department">
+          <div class="suite-telecom_department-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNG_Tutorial.testNG_Basic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testNG_Tutorial.testNG_Basic.test1(testNG_Basic.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-telecom_department-class-failed -->
+          <div class="suite-telecom_department-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG_Tutorial.testNG_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="address_change(google.com, yahoo.com)">
+                  </a> <!-- address_change(google.com, yahoo.com) -->
+                  <span class="method-name">address_change</span>
+                  <span class="parameters">(google.com, yahoo.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="after_suite">
+                  </a> <!-- after_suite -->
+                  <span class="method-name">after_suite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="name_change">
+                  </a> <!-- name_change -->
+                  <span class="method-name">name_change</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="personal_details_DOB_change">
+                  </a> <!-- personal_details_DOB_change -->
+                  <span class="method-name">personal_details_DOB_change</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="personal_details_email_change(yahoo.com)">
+                  </a> <!-- personal_details_email_change(yahoo.com) -->
+                  <span class="method-name">personal_details_email_change</span>
+                  <span class="parameters">(yahoo.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="personal_details_number_change(india, 9994356366)">
+                  </a> <!-- personal_details_number_change(india, 9994356366) -->
+                  <span class="method-name">personal_details_number_change</span>
+                  <span class="parameters">(india, 9994356366)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="personal_details_number_change(USA, 8328115845)">
+                  </a> <!-- personal_details_number_change(USA, 8328115845) -->
+                  <span class="method-name">personal_details_number_change</span>
+                  <span class="parameters">(USA, 8328115845)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="personal_details_number_change(europe, 9095049904)">
+                  </a> <!-- personal_details_number_change(europe, 9095049904) -->
+                  <span class="method-name">personal_details_number_change</span>
+                  <span class="parameters">(europe, 9095049904)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-telecom_department-class-passed -->
+          <div class="suite-telecom_department-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG_Tutorial.testNG_4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="reucurring_bundle">
+                  </a> <!-- reucurring_bundle -->
+                  <span class="method-name">reucurring_bundle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reucurring_topup">
+                  </a> <!-- reucurring_topup -->
+                  <span class="method-name">reucurring_topup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-telecom_department-class-passed -->
+          <div class="suite-telecom_department-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG_Tutorial.testNG_3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Balancecheck">
+                  </a> <!-- Balancecheck -->
+                  <span class="method-name">Balancecheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="auto_topup">
+                  </a> <!-- auto_topup -->
+                  <span class="method-name">auto_topup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-telecom_department-class-passed -->
+          <div class="suite-telecom_department-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG_Tutorial.testNG_regex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Order_Replacment_Sim">
+                  </a> <!-- Order_Replacment_Sim -->
+                  <span class="method-name">Order_Replacment_Sim</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Reactivate_Sim">
+                  </a> <!-- Reactivate_Sim -->
+                  <span class="method-name">Reactivate_Sim</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="suspend_Sim">
+                  </a> <!-- suspend_Sim -->
+                  <span class="method-name">suspend_Sim</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unuspend_sim">
+                  </a> <!-- unuspend_sim -->
+                  <span class="method-name">unuspend_sim</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unuspend_sim_success">
+                  </a> <!-- unuspend_sim_success -->
+                  <span class="method-name">unuspend_sim_success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-telecom_department-class-passed -->
+        </div> <!-- panel telecom_department -->
+        <div panel-name="test-xml-telecom_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91999\eclipse-workspace\testNG_Tutorial\testng_includ_exclude.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;telecom_department&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;global_URL&quot; value=&quot;google.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;testNG_Tutorial.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;prepay_login&quot;&gt;
+    &lt;parameter name=&quot;Test_URL&quot; value=&quot;yahoo.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNG_Tutorial.testNG_Basic&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;test1()&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNG_Tutorial.testNG_Basic --&gt;
+      &lt;class name=&quot;testNG_Tutorial.testNG_2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- prepay_login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;prepay_topup&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNG_Tutorial.testNG_3&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;top_up&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNG_Tutorial.testNG_3 --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- prepay_topup --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;prepay_recurring_topup&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNG_Tutorial.testNG_4&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;reucurring_addon&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNG_Tutorial.testNG_4 --&gt;
+      &lt;class name=&quot;testNG_Tutorial.testNG_regex&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- prepay_recurring_topup --&gt;
+&lt;/suite&gt; &lt;!-- telecom_department --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-telecom_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for telecom_department</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">prepay_login (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">prepay_topup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">prepay_recurring_topup (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-telecom_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for telecom_department</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">name_change</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">reucurring_bundle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">suspend_Sim</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-telecom_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for telecom_department</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_telecom_department');
+function tableData_telecom_department() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test1')
+data.setCell(0, 2, 'testNG_Tutorial.testNG_Basic')
+data.setCell(0, 3, 6);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'personal_details_number_change')
+data.setCell(1, 2, 'testNG_Tutorial.testNG_2')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'personal_details_number_change')
+data.setCell(2, 2, 'testNG_Tutorial.testNG_2')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'personal_details_number_change')
+data.setCell(3, 2, 'testNG_Tutorial.testNG_2')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'address_change')
+data.setCell(4, 2, 'testNG_Tutorial.testNG_2')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'name_change')
+data.setCell(5, 2, 'testNG_Tutorial.testNG_2')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'personal_details_email_change')
+data.setCell(6, 2, 'testNG_Tutorial.testNG_2')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'personal_details_DOB_change')
+data.setCell(7, 2, 'testNG_Tutorial.testNG_2')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'after_suite')
+data.setCell(8, 2, 'testNG_Tutorial.testNG_2')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'auto_topup')
+data.setCell(9, 2, 'testNG_Tutorial.testNG_3')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'reucurring_bundle')
+data.setCell(10, 2, 'testNG_Tutorial.testNG_4')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Balancecheck')
+data.setCell(11, 2, 'testNG_Tutorial.testNG_3')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Reactivate_Sim')
+data.setCell(12, 2, 'testNG_Tutorial.testNG_regex')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'unuspend_sim')
+data.setCell(13, 2, 'testNG_Tutorial.testNG_regex')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'suspend_Sim')
+data.setCell(14, 2, 'testNG_Tutorial.testNG_regex')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'unuspend_sim_success')
+data.setCell(15, 2, 'testNG_Tutorial.testNG_regex')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Order_Replacment_Sim')
+data.setCell(16, 2, 'testNG_Tutorial.testNG_regex')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'reucurring_topup')
+data.setCell(17, 2, 'testNG_Tutorial.testNG_4')
+data.setCell(17, 3, 1);
+window.suiteTableData['telecom_department']= { tableData: data, tableDiv: 'times-div-telecom_department'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 ms</span>
+              <div id="times-div-telecom_department">
+              </div> <!-- times-div-telecom_department -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-telecom_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for telecom_department</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-telecom_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testNG_Tutorial.testNG_4</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reucurring_addon</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testNG_Tutorial.testNG_3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">bundle</span>
+                <br/>
+                <span class="ignored-method-name">top_up</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testNG_Tutorial.testNG_Basic</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">test2</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-telecom_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG_Tutorial.testNG_Basic</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">After_suite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG_Tutorial.testNG_4</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reucurring_topup</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG_Tutorial.testNG_Basic</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Prerequsite</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test1</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG_Tutorial.testNG_2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">address_change(google.com, yahoo.com)</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">after_suite</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">name_change</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">personal_details_DOB_change</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">personal_details_email_change(yahoo.com)</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">personal_details_number_change(india, 9994356366)</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">personal_details_number_change(europe, 9095049904)</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">personal_details_number_change(USA, 8328115845)</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">after</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG_Tutorial.testNG_3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Balancecheck</span>
+                <span class="method-start">215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">auto_topup</span>
+                <span class="method-start">219 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG_Tutorial.testNG_4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">reucurring_bundle</span>
+                <span class="method-start">239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reucurring_topup</span>
+                <span class="method-start">242 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG_Tutorial.testNG_regex</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">suspend_sim_prerequsite</span>
+                <span class="method-start">246 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">Before_Method</span>
+                <span class="method-start">247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">suspend_Sim</span>
+                <span class="method-start">249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">After_Method</span>
+                <span class="method-start">252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Before_Method</span>
+                <span class="method-start">253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unuspend_sim_success</span>
+                <span class="method-start">253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">After_Method</span>
+                <span class="method-start">255 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Before_Method</span>
+                <span class="method-start">256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Order_Replacment_Sim</span>
+                <span class="method-start">257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">After_Method</span>
+                <span class="method-start">259 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Before_Method</span>
+                <span class="method-start">260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Reactivate_Sim</span>
+                <span class="method-start">261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">After_Method</span>
+                <span class="method-start">264 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Before_Method</span>
+                <span class="method-start">265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unuspend_sim</span>
+                <span class="method-start">265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">After_Method</span>
+                <span class="method-start">267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">unuspend_sim_success</span>
+                <span class="method-start">267 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG_Tutorial.testNG_2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">after_suite</span>
+                <span class="method-start">274 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,5 @@
+19:18:54.870 [TestNG-tests-1] INFO  Framework.E2E_Project.HomePageTest - password entered successfully
+19:18:57.201 [TestNG-tests-1] INFO  Framework.E2E_Project.HomePageTest - Intialization of driver is successful
+19:19:08.847 [TestNG-tests-1] INFO  Framework.E2E_Project.HomePageTest - No Thanks option inside popup is clicked successfully
+19:19:08.936 [TestNG-tests-1] INFO  Framework.E2E_Project.HomePageTest - FEATURED COURSES text is visible inside the web page
+19:19:09.526 [TestNG-tests-1] INFO  Framework.E2E_Project.HomePageTest - login button is clicked successfully

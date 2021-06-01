@@ -1,0 +1,5 @@
+20:27:46.302 [main] INFO  Framework.E2E_Project.HomePageTest - password entered successfully
+20:27:48.538 [main] INFO  Framework.E2E_Project.HomePageTest - Intialization of driver is successful
+20:28:16.289 [main] INFO  Framework.E2E_Project.HomePageTest - No Thanks option inside popup is clicked successfully
+20:28:16.396 [main] INFO  Framework.E2E_Project.HomePageTest - FEATURED COURSES text is visible inside the web page
+20:28:17.067 [main] INFO  Framework.E2E_Project.HomePageTest - login button is clicked successfully

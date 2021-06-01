@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="41" started-at="2021-05-05T22:42:37 IST" finished-at="2021-05-05T22:42:37 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="41" started-at="2021-05-05T22:42:37 IST" finished-at="2021-05-05T22:42:37 IST">
+      <class name="Maven_Practice.Maven_Java.PrepayTest">
+        <test-method status="PASS" signature="PrepayBundleTest()[pri:0, instance:Maven_Practice.Maven_Java.PrepayTest@3a5ed7a6]" name="PrepayBundleTest" is-config="true" duration-ms="7" started-at="2021-05-05T22:42:37 IST" finished-at="2021-05-05T22:42:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrepayBundleTest -->
+        <test-method status="PASS" signature="Prepaybalancecheck()[pri:0, instance:Maven_Practice.Maven_Java.PrepayTest@3a5ed7a6]" name="Prepaybalancecheck" is-config="true" duration-ms="0" started-at="2021-05-05T22:42:37 IST" finished-at="2021-05-05T22:42:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Prepaybalancecheck -->
+        <test-method status="PASS" signature="PrepayTopupTest()[pri:0, instance:Maven_Practice.Maven_Java.PrepayTest@3a5ed7a6]" name="PrepayTopupTest" duration-ms="1" started-at="2021-05-05T22:42:37 IST" finished-at="2021-05-05T22:42:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrepayTopupTest -->
+        <test-method status="PASS" signature="PrepayAddonTest()[pri:0, instance:Maven_Practice.Maven_Java.PrepayTest@3a5ed7a6]" name="PrepayAddonTest" is-config="true" duration-ms="1" started-at="2021-05-05T22:42:37 IST" finished-at="2021-05-05T22:42:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrepayAddonTest -->
+        <test-method status="PASS" signature="Prepayrecurring()[pri:0, instance:Maven_Practice.Maven_Java.PrepayTest@3a5ed7a6]" name="Prepayrecurring" is-config="true" duration-ms="1" started-at="2021-05-05T22:42:37 IST" finished-at="2021-05-05T22:42:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Prepayrecurring -->
+      </class> <!-- Maven_Practice.Maven_Java.PrepayTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

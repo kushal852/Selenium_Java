@@ -1,0 +1,6 @@
+20:41:08.697 [main] FATAL log4j_tutorial.log4j_alpha.log4j_demo - web object is not visible 
+20:41:08.702 [main] ERROR log4j_tutorial.log4j_alpha.log4j_demo - web button is not present
+20:41:51.025 [main] INFO  log4j_tutorial.log4j_alpha.log4j_demo - object is present
+20:41:51.027 [main] DEBUG log4j_tutorial.log4j_alpha.log4j_demo - web object is  clicked
+20:41:51.027 [main] FATAL log4j_tutorial.log4j_alpha.log4j_demo - web object is not visible 
+20:41:51.027 [main] ERROR log4j_tutorial.log4j_alpha.log4j_demo - web button is not present

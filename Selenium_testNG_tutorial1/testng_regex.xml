@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="telecom_department"> <!-- this suite can have multiple modules -->
+
+<test name="prepay_manage_perosnal_details"> <!-- name of the test case folder can be anything -->
+    <classes>  <!-- this classes tag is useful when we have multiple class file under one test case folder-->
+      <class name="testNG_Tutorial.testNG_2">
+      <methods>
+      <exclude name= "personal_details.*"/><!-- Excluding a particular method inside a class using regex -->
+      <!-- exclude name= "reucurring_bundle"/ -->
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->

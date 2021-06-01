@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="40783" started-at="2021-05-16T14:21:34 IST" finished-at="2021-05-16T14:22:14 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="40783" started-at="2021-05-16T14:21:34 IST" finished-at="2021-05-16T14:22:14 IST">
+      <class name="Framework.E2E_Project.ValidateTitleTest">
+        <test-method status="PASS" signature="browser_setup()[pri:0, instance:Framework.E2E_Project.ValidateTitleTest@305b7c14]" name="browser_setup" is-config="true" duration-ms="10866" started-at="2021-05-16T14:21:34 IST" finished-at="2021-05-16T14:21:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_setup -->
+        <test-method status="PASS" signature="header_validation()[pri:0, instance:Framework.E2E_Project.ValidateTitleTest@305b7c14]" name="header_validation" duration-ms="87" started-at="2021-05-16T14:22:14 IST" finished-at="2021-05-16T14:22:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- header_validation -->
+        <test-method status="PASS" signature="home_page_nav()[pri:0, instance:Framework.E2E_Project.ValidateTitleTest@305b7c14]" name="home_page_nav" duration-ms="352" started-at="2021-05-16T14:22:14 IST" finished-at="2021-05-16T14:22:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_page_nav -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Framework.E2E_Project.ValidateTitleTest@305b7c14]" name="teardown" is-config="true" duration-ms="102" started-at="2021-05-16T14:22:14 IST" finished-at="2021-05-16T14:22:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Framework.E2E_Project.ValidateTitleTest -->
+      <class name="Framework.E2E_Project.HomePageTest">
+        <test-method status="PASS" signature="browser_setup()[pri:0, instance:Framework.E2E_Project.HomePageTest@b3ca52e]" name="browser_setup" is-config="true" duration-ms="11439" started-at="2021-05-16T14:21:45 IST" finished-at="2021-05-16T14:21:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_setup -->
+        <test-method status="PASS" signature="home_page_nav(java.lang.String,java.lang.String)[pri:0, instance:Framework.E2E_Project.HomePageTest@b3ca52e]" name="home_page_nav" duration-ms="5248" started-at="2021-05-16T14:21:56 IST" data-provider="get_data" finished-at="2021-05-16T14:22:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Banned_user@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_page_nav -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Framework.E2E_Project.HomePageTest@b3ca52e]" name="teardown" is-config="true" duration-ms="92" started-at="2021-05-16T14:22:01 IST" finished-at="2021-05-16T14:22:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="browser_setup()[pri:0, instance:Framework.E2E_Project.HomePageTest@b3ca52e]" name="browser_setup" is-config="true" duration-ms="8290" started-at="2021-05-16T14:22:01 IST" finished-at="2021-05-16T14:22:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_setup -->
+        <test-method status="PASS" signature="home_page_nav(java.lang.String,java.lang.String)[pri:0, instance:Framework.E2E_Project.HomePageTest@b3ca52e]" name="home_page_nav" duration-ms="4178" started-at="2021-05-16T14:22:10 IST" data-provider="get_data" finished-at="2021-05-16T14:22:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[unbanned_user@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_page_nav -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Framework.E2E_Project.HomePageTest@b3ca52e]" name="teardown" is-config="true" duration-ms="88" started-at="2021-05-16T14:22:14 IST" finished-at="2021-05-16T14:22:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Framework.E2E_Project.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+16:36:14.867 [TestNG-tests-1] INFO  Framework.E2E_Project.HomePageTest - No Thanks option inside popup is clicked successfully
+16:36:14.957 [TestNG-tests-1] INFO  Framework.E2E_Project.HomePageTest - FEATURED COURSES text is visible inside the web page
+16:36:16.215 [TestNG-tests-1] INFO  Framework.E2E_Project.HomePageTest - login button is clicked successfully
+16:36:16.344 [TestNG-tests-1] INFO  Framework.E2E_Project.HomePageTest - username entered successfully
+16:36:16.423 [TestNG-tests-1] INFO  Framework.E2E_Project.HomePageTest - password entered successfully

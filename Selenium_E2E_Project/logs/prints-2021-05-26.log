@@ -1,0 +1,5 @@
+20:27:46.237 [main] INFO  Framework.E2E_Project.HomePageTest - FEATURED COURSES text is visible inside the web page
+20:27:46.903 [main] INFO  Framework.E2E_Project.HomePageTest - login button is clicked successfully
+20:27:47.025 [main] INFO  Framework.E2E_Project.HomePageTest - username entered successfully
+20:27:47.109 [main] INFO  Framework.E2E_Project.HomePageTest - password entered successfully
+20:28:26.414 [main] DEBUG Framework.E2E_Project.HomePageTest - No Thanks option inside popup is not clicked

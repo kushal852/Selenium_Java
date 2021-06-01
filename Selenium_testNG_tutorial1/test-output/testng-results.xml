@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="22" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-22T13:58:22 IST" name="telecom_department" finished-at="2021-04-22T13:58:23 IST" duration-ms="261">
+    <groups>
+      <group name="regression">
+        <method signature="testNG_2.name_change()[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" name="name_change" class="testNG_Tutorial.testNG_2"/>
+        <method signature="testNG_regex.suspend_Sim()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" name="suspend_Sim" class="testNG_Tutorial.testNG_regex"/>
+        <method signature="testNG_4.reucurring_bundle()[pri:0, instance:testNG_Tutorial.testNG_4@5be6e01c]" name="reucurring_bundle" class="testNG_Tutorial.testNG_4"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2021-04-22T13:58:22 IST" name="prepay_login" finished-at="2021-04-22T13:58:22 IST" duration-ms="96">
+      <class name="testNG_Tutorial.testNG_Basic">
+        <test-method is-config="true" signature="Prerequsite()[pri:0, instance:testNG_Tutorial.testNG_Basic@309e345f]" started-at="2021-04-22T13:58:22 IST" name="Prerequsite" finished-at="2021-04-22T13:58:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Prerequsite -->
+        <test-method signature="test1()[pri:0, instance:testNG_Tutorial.testNG_Basic@309e345f]" started-at="2021-04-22T13:58:22 IST" name="test1" finished-at="2021-04-22T13:58:22 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at testNG_Tutorial.testNG_Basic.test1(testNG_Basic.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testNG_Tutorial.testNG_Basic -->
+      <class name="testNG_Tutorial.testNG_2">
+        <test-method signature="address_change(java.lang.String, java.lang.String)[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" started-at="2021-04-22T13:58:22 IST" name="address_change" finished-at="2021-04-22T13:58:22 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- address_change -->
+        <test-method signature="after_suite()[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" started-at="2021-04-22T13:58:22 IST" name="after_suite" finished-at="2021-04-22T13:58:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_suite -->
+        <test-method signature="name_change()[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" started-at="2021-04-22T13:58:22 IST" name="name_change" finished-at="2021-04-22T13:58:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name_change -->
+        <test-method signature="personal_details_DOB_change()[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" started-at="2021-04-22T13:58:22 IST" name="personal_details_DOB_change" finished-at="2021-04-22T13:58:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_details_DOB_change -->
+        <test-method signature="personal_details_email_change(java.lang.String)[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" started-at="2021-04-22T13:58:22 IST" name="personal_details_email_change" finished-at="2021-04-22T13:58:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_details_email_change -->
+        <test-method signature="personal_details_number_change(java.lang.String, java.lang.String)[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" started-at="2021-04-22T13:58:22 IST" name="personal_details_number_change" data-provider="get_data" finished-at="2021-04-22T13:58:22 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9994356366]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_details_number_change -->
+        <test-method signature="personal_details_number_change(java.lang.String, java.lang.String)[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" started-at="2021-04-22T13:58:22 IST" name="personal_details_number_change" data-provider="get_data" finished-at="2021-04-22T13:58:22 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[europe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9095049904]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_details_number_change -->
+        <test-method signature="personal_details_number_change(java.lang.String, java.lang.String)[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" started-at="2021-04-22T13:58:22 IST" name="personal_details_number_change" data-provider="get_data" finished-at="2021-04-22T13:58:22 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8328115845]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_details_number_change -->
+        <test-method is-config="true" signature="after()[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" started-at="2021-04-22T13:58:22 IST" name="after" finished-at="2021-04-22T13:58:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testNG_Tutorial.testNG_2 -->
+    </test> <!-- prepay_login -->
+    <test started-at="2021-04-22T13:58:23 IST" name="prepay_topup" finished-at="2021-04-22T13:58:23 IST" duration-ms="11">
+      <class name="testNG_Tutorial.testNG_3">
+        <test-method signature="Balancecheck()[pri:0, instance:testNG_Tutorial.testNG_3@3967e60c]" started-at="2021-04-22T13:58:23 IST" name="Balancecheck" finished-at="2021-04-22T13:58:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Balancecheck -->
+        <test-method signature="auto_topup()[pri:0, instance:testNG_Tutorial.testNG_3@3967e60c]" started-at="2021-04-22T13:58:23 IST" name="auto_topup" finished-at="2021-04-22T13:58:23 IST" depends-on-methods="testNG_Tutorial.testNG_3.Balancecheck" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_topup -->
+      </class> <!-- testNG_Tutorial.testNG_3 -->
+    </test> <!-- prepay_topup -->
+    <test started-at="2021-04-22T13:58:23 IST" name="prepay_recurring_topup" finished-at="2021-04-22T13:58:23 IST" duration-ms="31">
+      <class name="testNG_Tutorial.testNG_Basic">
+        <test-method is-config="true" signature="After_suite()[pri:0, instance:testNG_Tutorial.testNG_Basic@309e345f]" started-at="2021-04-22T13:58:22 IST" name="After_suite" finished-at="2021-04-22T13:58:22 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_suite -->
+      </class> <!-- testNG_Tutorial.testNG_Basic -->
+      <class name="testNG_Tutorial.testNG_regex">
+        <test-method is-config="true" signature="suspend_sim_prerequsite()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="suspend_sim_prerequsite" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suspend_sim_prerequsite -->
+        <test-method is-config="true" signature="Before_Method()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="Before_Method" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="suspend_Sim()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="suspend_Sim" finished-at="2021-04-22T13:58:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suspend_Sim -->
+        <test-method is-config="true" signature="After_Method()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="After_Method" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="Before_Method" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="unuspend_sim_success()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="unuspend_sim_success" finished-at="2021-04-22T13:58:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unuspend_sim_success -->
+        <test-method is-config="true" signature="After_Method()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="After_Method" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="Before_Method" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Order_Replacment_Sim()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="Order_Replacment_Sim" finished-at="2021-04-22T13:58:23 IST" depends-on-methods="testNG_Tutorial.testNG_regex.suspend_Sim" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Order_Replacment_Sim -->
+        <test-method is-config="true" signature="After_Method()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="After_Method" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="Before_Method" finished-at="2021-04-22T13:58:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Reactivate_Sim()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="Reactivate_Sim" finished-at="2021-04-22T13:58:23 IST" depends-on-methods="testNG_Tutorial.testNG_regex.suspend_Sim, testNG_Tutorial.testNG_regex.Order_Replacment_Sim" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reactivate_Sim -->
+        <test-method is-config="true" signature="After_Method()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="After_Method" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="unuspend_sim()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="unuspend_sim" finished-at="2021-04-22T13:58:23 IST" depends-on-methods="testNG_Tutorial.testNG_regex.suspend_Sim, testNG_Tutorial.testNG_regex.Reactivate_Sim, testNG_Tutorial.testNG_regex.Order_Replacment_Sim" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unuspend_sim -->
+        <test-method is-config="true" signature="Before_Method()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="Before_Method" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="unuspend_sim_success()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="unuspend_sim_success" finished-at="2021-04-22T13:58:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unuspend_sim_success -->
+        <test-method is-config="true" signature="After_Method()[pri:0, instance:testNG_Tutorial.testNG_regex@1c93084c]" started-at="2021-04-22T13:58:23 IST" name="After_Method" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- testNG_Tutorial.testNG_regex -->
+      <class name="testNG_Tutorial.testNG_2">
+        <test-method is-config="true" signature="after_suite()[pri:0, instance:testNG_Tutorial.testNG_2@18ce0030]" started-at="2021-04-22T13:58:23 IST" name="after_suite" finished-at="2021-04-22T13:58:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_suite -->
+      </class> <!-- testNG_Tutorial.testNG_2 -->
+      <class name="testNG_Tutorial.testNG_4">
+        <test-method is-config="true" signature="reucurring_topup()[pri:0, instance:testNG_Tutorial.testNG_4@5be6e01c]" started-at="2021-04-22T13:58:22 IST" name="reucurring_topup" finished-at="2021-04-22T13:58:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reucurring_topup -->
+        <test-method signature="reucurring_bundle()[pri:0, instance:testNG_Tutorial.testNG_4@5be6e01c]" started-at="2021-04-22T13:58:23 IST" name="reucurring_bundle" finished-at="2021-04-22T13:58:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reucurring_bundle -->
+        <test-method signature="reucurring_topup()[pri:0, instance:testNG_Tutorial.testNG_4@5be6e01c]" started-at="2021-04-22T13:58:23 IST" name="reucurring_topup" finished-at="2021-04-22T13:58:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reucurring_topup -->
+      </class> <!-- testNG_Tutorial.testNG_4 -->
+    </test> <!-- prepay_recurring_topup -->
+  </suite> <!-- telecom_department -->
+</testng-results>
