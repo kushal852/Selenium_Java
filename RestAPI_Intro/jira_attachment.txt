@@ -1,1 +1,0 @@
-Attaching a attachment to the bug raised in jirs
