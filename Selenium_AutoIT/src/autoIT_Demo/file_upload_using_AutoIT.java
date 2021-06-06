@@ -45,6 +45,8 @@ public class file_upload_using_AutoIT {
 
 			System.out.println("file deleted");
 		}
+		
+		driver.quit();
 	}
 
 }
