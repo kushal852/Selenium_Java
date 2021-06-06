@@ -14,7 +14,7 @@ public class Cloud_execution_using_sauce_labs {
 	
 	public static final String USERNAME = "oauth-t.v.kushal357-43152";
 
-	  public static final String ACCESS_KEY = "xxxxxx";
+	  public static final String ACCESS_KEY = "abdcde";
 
 	  public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
 
