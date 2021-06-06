@@ -7,7 +7,8 @@ public class indian_traffic_class implements worldwidetrafficrules,continentaltr
 		
 		// to access the methods inside interfaces using the class
 		worldwidetrafficrules wt = new indian_traffic_class();
-		wt.GreenLight();
+		String a = "kushal";
+		wt.GreenLight(a);
 		wt.yellowlight();
 		wt.redlight();
 		// specific object should be created for each interface to access the methods inside it. 
@@ -36,9 +37,10 @@ public class indian_traffic_class implements worldwidetrafficrules,continentaltr
 	}
 
 	@Override
-	public void GreenLight() {
+	
+	public void GreenLight(String a) {
 		// TODO Auto-generated method stub
-		
+		System.out.println(a);
 		System.out.println("vehicles can move");
 		
 	}
