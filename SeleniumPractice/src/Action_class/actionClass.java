@@ -23,7 +23,7 @@ public class actionClass {
 		//action_class.moveToElement(driver.findElement(By.cssSelector("#nav-search-submit-button"))).click().build().perform();
 		//right click a particular element
 		action_class.moveToElement(driver.findElement(By.cssSelector("#nav-link-accountList"))).contextClick().build().perform();
-
+		
 	}
 
 }

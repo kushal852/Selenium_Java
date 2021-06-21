@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="Selenium_remote_docker_testing.docker_validation.chromenode3Test">
+        <methods>
+          <include name="chromeTest3"/>
+        </methods>
+      </class> <!-- Selenium_remote_docker_testing.docker_validation.chromenode3Test -->
+      <class name="Selenium_remote_docker_testing.docker_validation.firefoxnode1Test">
+        <methods>
+          <include name="firefoxTest"/>
+        </methods>
+      </class> <!-- Selenium_remote_docker_testing.docker_validation.firefoxnode1Test -->
+      <class name="Selenium_remote_docker_testing.docker_validation.chromenode1Test">
+        <methods>
+          <include name="chromeTest1"/>
+          <include name="StartdockerFile"/>
+          <include name="Stopdockerfile"/>
+        </methods>
+      </class> <!-- Selenium_remote_docker_testing.docker_validation.chromenode1Test -->
+      <class name="Selenium_remote_docker_testing.docker_validation.chromenode2Test">
+        <methods>
+          <include name="chromeTest2"/>
+        </methods>
+      </class> <!-- Selenium_remote_docker_testing.docker_validation.chromenode2Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

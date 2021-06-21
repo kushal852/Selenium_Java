@@ -1,5 +1,7 @@
 package Java_Learning;
 
+import java.util.ArrayList;
+
 public class Basic_Logical_Programs {
 
 	public static void main(String[] args) {
@@ -20,8 +22,12 @@ public class Basic_Logical_Programs {
 			
 			
 		}
+	
 		
 		System.out.println(b);
+		
+		
+		
 	}
 
 }
