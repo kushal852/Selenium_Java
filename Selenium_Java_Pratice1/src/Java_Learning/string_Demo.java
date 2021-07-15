@@ -27,6 +27,20 @@ public class string_Demo {
 		System.out.println(arr[1]);
 		System.out.println(a.replace("t", "s"));
 		
+		String s1 = "HELLO";
+        String s2 = "HEL"+"LO";
+        
+        System.out.println(s1 == s2);
+        
+        if(s1==s2) {
+        	 System.out.println("True");
+    
+        }
+        
+        else {
+        	System.out.println("False");
+        }
+		
 
 	}
 

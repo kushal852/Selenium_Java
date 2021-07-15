@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>ExcelDataDrive_ApachePOI</groupId>
-  <artifactId>DataDrive</artifactId>
+  <groupId>Excel_integration</groupId>
+  <artifactId>RestAPI_Excel_integration</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>DataDrive</name>
+  <name>RestAPI_Excel_integration</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,7 +15,14 @@
   </properties>
 
   <dependencies>
-      <dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+     <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
     <version>4.1.0</version>
@@ -25,6 +32,16 @@
     <artifactId>poi</artifactId>
     <version>4.1.0</version>
 </dependency>
-
+<dependency>
+     <groupId>io.rest-assured</groupId>
+     <artifactId>rest-assured</artifactId>
+     <version>4.3.0</version>
+     <scope>test</scope>     
+	</dependency>
+	<dependency>
+     <groupId>com.fasterxml.jackson.core</groupId>
+     <artifactId>jackson-databind</artifactId>
+     <version>2.10.1</version>
+	</dependency> 
   </dependencies>
 </project>
